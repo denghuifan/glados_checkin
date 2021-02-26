@@ -30,4 +30,6 @@ jobs:
         python3 checkin.py 
       env: 
         COOKIE: ${{ secrets.COOKIE }}
+        SERVE: ${{ secrets.SERVE }}
+        SCKEY: ${{ secrets.SCKEY }}
 
